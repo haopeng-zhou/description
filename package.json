@@ -2,17 +2,18 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://haopeng-zhou.github.io/description",
   "type": "module",
-  "homepage": "https://haopeng-zhou.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "gh-pages": "^4.0.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.22",
