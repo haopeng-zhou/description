@@ -1,0 +1,27 @@
+.projectsNavUl {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 25px;
+    padding-inline-start: 0px;
+    margin-block-start: 15px;
+    border-right: solid 2px;
+    border-color: blueviolet;
+}
+
+.projectsNavUl li {
+    padding-right: 0;
+}
+
+.projectsNav {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    /* overflow: hidden; */
+}
+
+.project {
+    padding-left: 10px;
+    height: 100%;
+}

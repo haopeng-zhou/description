@@ -1,0 +1,29 @@
+@import './navigation.css';
+@import './about.css';
+@import './projects.css';
+@import './projectsNav.css';
+@import './formGroup.css';
+
+.app {
+    background-color: blueviolet;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 10px;
+    color: black;
+    overflow: scroll;
+}
+
+#dark {
+    background-color: #1b1b1b;
+    color: #e3e3e3;
+}
+
+#light {
+    background-color: white;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}

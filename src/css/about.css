@@ -1,0 +1,25 @@
+.about {
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px 50px;
+}
+
+.about h1 {
+    font-style: italic;
+    /* text-decoration: underline blueviolet 2px; */
+}
+
+.contact {
+    display: flex;
+    gap: 10px;
+    font-size: large;
+}
+
+.gmail {
+    cursor: pointer;
+}
+
+.dialog {
+    padding: 10px;
+}
